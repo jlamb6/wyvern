@@ -1,0 +1,53 @@
+webpackHotUpdate("static\\development\\pages\\index.js",{
+
+/***/ "./components/initial-display.js":
+/*!***************************************!*\
+  !*** ./components/initial-display.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Projects\\next-wyvern\\components\\initial-display.js";
+
+
+
+var InitialDisplay = function InitialDisplay(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2285634639" + " " + "reveal main slide-left grow shadow pt-4 pr-4 pl-4 pb-5 mb-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-2285634639" + " " + "reveal reveal-2 slide-top mb-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, props.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2285634639" + " " + "reveal reveal-3 slide-left body",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, props.body), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2285634639",
+    __self: this
+  }, ".reveal.main.jsx-2285634639{color:white;height:auto;padding:10px 20px;margin:40px 0;background:linear-gradient(5deg,#004161fc ,#0f4769e8);}.reveal.body.jsx-2285634639{line-height:1.8rem;font-weight:100;font-size:1.15rem;}.expand-left.jsx-2285634639{-webkit-animation-name:expand-left-jsx-2285634639;animation-name:expand-left-jsx-2285634639;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;}.reveal.jsx-2285634639 .reveal.jsx-2285634639{opacity:0;}.reveal.slide-top.jsx-2285634639{-webkit-animation-name:slide-top-jsx-2285634639;animation-name:slide-top-jsx-2285634639;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;}.reveal.slide-left.jsx-2285634639{-webkit-animation-name:slide-left-jsx-2285634639;animation-name:slide-left-jsx-2285634639;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;}.reveal.reveal-2.jsx-2285634639{-webkit-animation-delay:.8s;animation-delay:.8s;}.reveal.reveal-3.jsx-2285634639{-webkit-animation-delay:1.4s;animation-delay:1.4s;}@-webkit-keyframes slide-top-jsx-2285634639{0%{-webkit-transform:translate(0,-40px);-ms-transform:translate(0,-40px);transform:translate(0,-40px);opacity:0;}100%{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);opacity:1;}}@keyframes slide-top-jsx-2285634639{0%{-webkit-transform:translate(0,-40px);-ms-transform:translate(0,-40px);transform:translate(0,-40px);opacity:0;}100%{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);opacity:1;}}@-webkit-keyframes slide-bottom-jsx-2285634639{0%{-webkit-transform:translate(0,40px);-ms-transform:translate(0,40px);transform:translate(0,40px);opacity:0;}100%{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);opacity:1;}}@keyframes slide-bottom-jsx-2285634639{0%{-webkit-transform:translate(0,40px);-ms-transform:translate(0,40px);transform:translate(0,40px);opacity:0;}100%{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);opacity:1;}}@-webkit-keyframes slide-left-jsx-2285634639{0%{-webkit-transform:translate(-40px,0);-ms-transform:translate(-40px,0);transform:translate(-40px,0);opacity:0;}100%{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);opacity:1;}}@keyframes slide-left-jsx-2285634639{0%{-webkit-transform:translate(-40px,0);-ms-transform:translate(-40px,0);transform:translate(-40px,0);opacity:0;}100%{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);opacity:1;}}@-webkit-keyframes slide-right-jsx-2285634639{0%{-webkit-transform:translate(40px,0);-ms-transform:translate(40px,0);transform:translate(40px,0);opacity:0;}100%{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);opacity:1;}}@keyframes slide-right-jsx-2285634639{0%{-webkit-transform:translate(40px,0);-ms-transform:translate(40px,0);transform:translate(40px,0);opacity:0;}100%{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);opacity:1;}}@-webkit-keyframes expand-left-jsx-2285634639{0%{opacity:0;width:0px;}100%{opacity:1;width:100px;height:66px;}}@keyframes expand-left-jsx-2285634639{0%{opacity:0;width:0px;}100%{opacity:1;width:100px;height:66px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxQcm9qZWN0c1xcbmV4dC13eXZlcm5cXGNvbXBvbmVudHNcXGluaXRpYWwtZGlzcGxheS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJb0IsQUFHeUIsQUFPTyxBQUtRLEFBS2pCLEFBR2UsQUFLQyxBQUtOLEFBR0MsQUFJYSxBQUlKLEFBTUcsQUFJSCxBQU1JLEFBSUosQUFNRyxBQUlILEFBTWhCLEFBR0MsVUE5RG5CLEFBNERrQixBQUdFLEVBaEZKLE9BT0ksQ0F1RWhCLEVBR2dCLEVBaEZFLFVBaUZsQixDQTFFa0IsT0FOSixNQTRCbEIsRUFHQSxHQXhCQSxHQU4wRCwrQkFzQ3hDLEFBVUEsQUFVQSxBQVVBLENBbkRRLEVBS0EsRUFiQSxJQW1DUixBQW9CQSxDQXpCZCxBQVVBLEFBVUEsQUFVQSxFQW5DYyxBQW9CQSxPQVRkLEFBb0JBLEdBOUJBLEFBb0JBLENBdERKLDhCQWlCaUMsRUFLQSxFQWJNLDhEQVN2QyxFQUtBLGNBYkEiLCJmaWxlIjoiQzpcXFByb2plY3RzXFxuZXh0LXd5dmVyblxcY29tcG9uZW50c1xcaW5pdGlhbC1kaXNwbGF5LmpzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgSW5pdGlhbERpc3BsYXkgPSAocHJvcHMpID0+IChcclxuICAgIDxkaXYgY2xhc3NOYW1lPVwicmV2ZWFsIG1haW4gc2xpZGUtbGVmdCBncm93IHNoYWRvdyBwdC00IHByLTQgcGwtNCBwYi01IG1iLTVcIj5cclxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwicmV2ZWFsIHJldmVhbC0yIHNsaWRlLXRvcCBtYi00XCI+e3Byb3BzLnRpdGxlfTwvaDM+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyZXZlYWwgcmV2ZWFsLTMgc2xpZGUtbGVmdCBib2R5XCI+e3Byb3BzLmJvZHl9PC9kaXY+XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIC5yZXZlYWwubWFpbiB7XHJcbiAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICAgICAgICAgaGVpZ2h0OiBhdXRvO1xyXG4gICAgICAgICAgICBwYWRkaW5nOiAxMHB4IDIwcHg7XHJcbiAgICAgICAgICAgIG1hcmdpbjogNDBweCAwO1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoNWRlZywjMDA0MTYxZmMgLCMwZjQ3NjllOCk7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5yZXZlYWwuYm9keSB7XHJcbiAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxLjhyZW07XHJcbiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiAxMDA7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMS4xNXJlbTtcclxuICAgICAgICB9XHJcbiAgICAgICAgLmV4cGFuZC1sZWZ0IHtcclxuICAgICAgICAgICAgYW5pbWF0aW9uLW5hbWU6IGV4cGFuZC1sZWZ0O1xyXG4gICAgICAgICAgICBhbmltYXRpb24tZHVyYXRpb246IDFzO1xyXG4gICAgICAgICAgICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLW91dDtcclxuICAgICAgICB9XHJcbiAgICAgICAgLnJldmVhbCAucmV2ZWFsIHtcclxuICAgICAgICAgICAgb3BhY2l0eTogMDtcclxuICAgICAgICB9XHJcbiAgICAgICAgLnJldmVhbC5zbGlkZS10b3Age1xyXG4gICAgICAgICAgICBhbmltYXRpb24tbmFtZTogc2xpZGUtdG9wO1xyXG4gICAgICAgICAgICBhbmltYXRpb24tZHVyYXRpb246IDFzO1xyXG4gICAgICAgICAgICBhbmltYXRpb24tZmlsbC1tb2RlOiBmb3J3YXJkcztcclxuICAgICAgICB9XHJcbiAgICAgICAgLnJldmVhbC5zbGlkZS1sZWZ0IHtcclxuICAgICAgICAgICAgYW5pbWF0aW9uLW5hbWU6IHNsaWRlLWxlZnQ7XHJcbiAgICAgICAgICAgIGFuaW1hdGlvbi1kdXJhdGlvbjogMXM7XHJcbiAgICAgICAgICAgIGFuaW1hdGlvbi1maWxsLW1vZGU6IGZvcndhcmRzO1xyXG4gICAgICAgIH1cclxuICAgICAgICAucmV2ZWFsLnJldmVhbC0yIHtcclxuICAgICAgICAgICAgYW5pbWF0aW9uLWRlbGF5OiAuOHM7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5yZXZlYWwucmV2ZWFsLTMge1xyXG4gICAgICAgICAgICBhbmltYXRpb24tZGVsYXk6IDEuNHM7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIEBrZXlmcmFtZXMgc2xpZGUtdG9wIHtcclxuICAgICAgICAgICAgMCUge1xyXG4gICAgICAgICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoMCwgLTQwcHgpO1xyXG4gICAgICAgICAgICAgICAgb3BhY2l0eTogMDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAxMDAlIHtcclxuICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKDAsIDApO1xyXG4gICAgICAgICAgICAgICAgb3BhY2l0eTogMTtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuICAgICAgICBAa2V5ZnJhbWVzIHNsaWRlLWJvdHRvbSB7XHJcbiAgICAgICAgICAgIDAlIHtcclxuICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKDAsIDQwcHgpO1xyXG4gICAgICAgICAgICAgICAgb3BhY2l0eTogMDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAxMDAlIHtcclxuICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKDAsIDApO1xyXG4gICAgICAgICAgICAgICAgb3BhY2l0eTogMTtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuICAgICAgICBAa2V5ZnJhbWVzIHNsaWRlLWxlZnQge1xyXG4gICAgICAgICAgICAwJSB7XHJcbiAgICAgICAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNDBweCwgMCk7XHJcbiAgICAgICAgICAgICAgICBvcGFjaXR5OiAwO1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIDEwMCUge1xyXG4gICAgICAgICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoMCwgMCk7XHJcbiAgICAgICAgICAgICAgICBvcGFjaXR5OiAxO1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG4gICAgICAgIEBrZXlmcmFtZXMgc2xpZGUtcmlnaHQge1xyXG4gICAgICAgICAgICAwJSB7XHJcbiAgICAgICAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg0MHB4LCAwKTtcclxuICAgICAgICAgICAgICAgIG9wYWNpdHk6IDA7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgMTAwJSB7XHJcbiAgICAgICAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgwLCAwKTtcclxuICAgICAgICAgICAgICAgIG9wYWNpdHk6IDE7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICB9XHJcbiAgICAgICAgQGtleWZyYW1lcyBleHBhbmQtbGVmdCB7XHJcbiAgICAgICAgICAgIDAlIHtcclxuICAgICAgICAgICAgICAgIG9wYWNpdHk6IDA7IFxyXG4gICAgICAgICAgICAgICAgd2lkdGg6IDBweDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAxMDAlIHtvcGFjaXR5OiAxOyBcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAxMDBweDtcclxuICAgICAgICAgICAgICAgIGhlaWdodDogNjZweDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICAgIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgSW5pdGlhbERpc3BsYXk7Il19 */\n/*@ sourceURL=C:\\Projects\\next-wyvern\\components\\initial-display.js */"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (InitialDisplay);
+
+/***/ })
+
+})
+//# sourceMappingURL=index.js.9288b1a67b437b986d5f.hot-update.js.map

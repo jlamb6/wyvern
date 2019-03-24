@@ -13,7 +13,7 @@ const Jumbotron = (props) => (
                 opacity: 0;
                 animation-name: fade-in;
                 animation-delay: .8s;
-                animation-duration: 1s;
+                animation-duration: .75s;
                 animation-timing-function: ease-in-out;
                 animation-fill-mode: forwards;
             }

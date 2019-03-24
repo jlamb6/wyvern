@@ -1,7 +1,10 @@
 const Header = () => (
-    <div className="row justify-content-center text-center mt-5 mb-5">
+    <div className="row justify-content-center text-center">
         <div className="col ml-md-auto slide-top">
             <style jsx>{`
+                .col {
+                    margin-bottom: 40px;
+                }
                 .slide-top {
                     animation-name: fade-top;
                     animation-duration: .8s;
