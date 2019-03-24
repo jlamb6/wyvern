@@ -1,0 +1,19 @@
+{
+  "name": "next-wyvern",
+  "version": "1.0.0",
+  "description": "Wyvern Realty Group Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "run": "next start"
+  },
+  "author": "Jake Lamb",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  }
+}
