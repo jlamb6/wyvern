@@ -3,7 +3,7 @@ class InitialDisplay extends React.Component {
     componentDidMount() {
         console.log(this);
         let options = {
-            threshold: 1
+            threshold: .75
         }
         let target = document.querySelector(`#${this.props.id}`);
 

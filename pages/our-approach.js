@@ -3,6 +3,8 @@ import Head from 'next/head';
 import Page from '../components/page';
 import AnimatedCard from '../components/card-animated';
 import AnimatedCardDark from '../components/card-dark-animated';
+import ContainerFadeIn from '../components/fade-in-container';
+import Jumbotron from '../components/jumbotron';
 
 const OurApproach = () => (
     <Layout curPage='Our Approach'>
@@ -12,6 +14,25 @@ const OurApproach = () => (
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous"></link>
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
         </Head>
+
+
+        <div className="wrapper" style={{backgroundColor: 'white', paddingBottom: '80px'}}>
+            <Page>
+                <h1 className="display-4 mt-5">Find Something Different</h1>
+                <hr />
+                <h4 className="font-weight-light font-italic">Real estate done right. No hassle. No up-sell.</h4>
+                <div className="container" style={{marginTop: '60px'}}>
+                    <Jumbotron 
+                        btnTitle={'Contact Us Today!'} 
+                        title={'I Want Something Different'}
+                        lead={'This statement sparked what would become Wyvern Real Estate Group.'}
+                        body={'Our vision here at Wyvern Real Estate Group is to provide you with a unique Real Estate experience that delivers quality service and streamlined management so we can save you money!'} 
+                    />
+                </div>
+            </Page>
+        </div>
+        
+
         <div className="wrapper" style={{backgroundColor: 'white', paddingBottom: '80px'}}>
             <Page>
                 <h1 className="display-4 mt-5">Our Services</h1>
@@ -39,6 +60,7 @@ const OurApproach = () => (
                 </div>
             </Page>
         </div>
+
         <style jsx>{`
             .card-col {
                 transition: transform .2s;

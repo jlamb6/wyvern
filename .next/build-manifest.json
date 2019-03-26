@@ -11,7 +11,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/contact": [
+    "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -19,7 +19,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/index": [
+    "/our-approach": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

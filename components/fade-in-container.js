@@ -1,10 +1,10 @@
 
-class ContainerSlideLeft extends React.Component {
+class ContainerFadeIn extends React.Component {
 
     componentDidMount() {
         console.log(this);
         let options = {
-            threshold: .75
+            threshold: 1
         }
         let target = document.querySelector(`#${this.props.id}`);
 
@@ -25,7 +25,7 @@ class ContainerSlideLeft extends React.Component {
 
     render() {
         return (
-            <div id={this.props.id} className="shadow main slide-right pt-4 pr-4 pl-4 pb-5 mb-5">
+            <div id={this.props.id} className="shadow main fade-in pt-4 pr-4 pl-4 pb-5 mb-5">
                 <h3 className="reveal-2 slide-top mb-4">{this.props.title}</h3>
                     <div className="reveal-3 slide-right body">{this.props.body}</div>
                     <style jsx>{`
@@ -48,6 +48,11 @@ class ContainerSlideLeft extends React.Component {
                     }
                     .reveal, div, h3 {
                         opacity: 0;
+                    }
+                    .reveal.fade-in {
+                        animation-name: fade-in;
+                        animation-duration: 1s;
+                        animation-fill-mode: forwards;
                     }
                     .reveal.slide-top {
                         animation-name: slide-top;
@@ -105,10 +110,20 @@ class ContainerSlideLeft extends React.Component {
                             height: 66px;
                         }
                     }
+                    @keyframes fade-in {
+                        0% {
+                            opacity: 0; 
+                            transform: scale(.92, .92);
+                        }
+                        100% {
+                            opacity: 1; 
+                            transform: scale(1, 1);
+                        }
+                    }
                 `}</style>
             </div>
         )
     }
 }
 
-export default ContainerSlideLeft;
+export default ContainerFadeIn;
